@@ -1,0 +1,14 @@
+{
+  "name": "pi-task-progress",
+  "version": "0.1.0",
+  "description": "Task progress and next-step prompt UI for Pi",
+  "keywords": ["pi-package", "pi-extension", "progress", "tui"],
+  "type": "module",
+  "pi": {
+    "extensions": ["./extensions/task-progress.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
